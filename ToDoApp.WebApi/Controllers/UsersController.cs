@@ -35,7 +35,7 @@ public class UsersController(IUserService _userService, IAuthenticationService _
         var result = await _authenticationService.LoginByTokenAsync(dto);
         try
         { 
-            await _mailService.SendEmailAsync(dto.Email, "Giriş yapıldı", "Başarıyla Giriş yapıldı"); 
+            await _mailService.SendEmailAsync(dto.Email, "Giriş yapıldı 22222222", "Başarıyla Giriş yapıldı"); 
             //return Ok(new { Message = "E-posta başarıyla gönderildi." });
         }
         catch (Exception ex)

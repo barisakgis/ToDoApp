@@ -47,3 +47,12 @@
 2024-11-05 23:59:13.8480 Info Message Template Auto Format enabled
 2024-11-05 23:59:13.9051 Info Adding target FileTarget(Name=logfile)
 2024-11-05 23:59:13.9051 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\baris\Desktop\ToDoApp\ToDoApp\ToDoApp.WebApi\nlog.config
+2024-11-06 13:39:27.4460 Info Message Template Auto Format enabled
+2024-11-06 13:39:27.5436 Info Adding target FileTarget(Name=logfile)
+2024-11-06 13:39:27.5762 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\baris\Desktop\ToDoApp\ToDoApp\ToDoApp.WebApi\nlog.config
+2024-11-06 13:40:49.7635 Info Message Template Auto Format enabled
+2024-11-06 13:40:49.8875 Info Adding target FileTarget(Name=logfile)
+2024-11-06 13:40:49.9068 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\baris\Desktop\ToDoApp\ToDoApp\ToDoApp.WebApi\nlog.config
+2024-11-06 13:43:01.9113 Info Message Template Auto Format enabled
+2024-11-06 13:43:02.0144 Info Adding target FileTarget(Name=logfile)
+2024-11-06 13:43:02.0355 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\baris\Desktop\ToDoApp\ToDoApp\ToDoApp.WebApi\nlog.config

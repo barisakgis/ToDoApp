@@ -1,22 +1,10 @@
-﻿using AutoMapper;
-using Core.Entities;
-using Core.Exceptions;
-using ToDoApp.Models.Entities;
-using ToDoApp.Models.ToDos;
-using ToDoApp.Repository.Repositories.Abstracts;
-using ToDoApp.Service.Abstract;
-using ToDoApp.Service.CacheServices;
-using ToDoApp.Service.Constants;
-using ToDoApp.Service.Rules;
-
+﻿using Microsoft.Extensions.Options;
 using System.Net;
 using System.Net.Mail;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Options;
 using ToDoApp.Models.SmtpSettings;
 
 namespace ToDoApp.Service.Concretes;
-  
+
 public class MailService
 {
     private readonly SmtpSettings _smtpSettings;

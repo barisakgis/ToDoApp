@@ -1,12 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.Json;
-using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
+﻿using Microsoft.AspNetCore.Mvc;
 using ToDoApp.Models.Categories;
 using ToDoApp.Service.Abstract;
-using ToDoApp.WebApi.Middlewares;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ToDoApp.WebApi.Controllers;
 

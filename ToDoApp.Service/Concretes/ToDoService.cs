@@ -151,6 +151,9 @@ public sealed class ToDoService : IToDoService
 
             ToDo toDo = _toDoRepository.GetById(dto.Id);
 
+
+      //  if (toDo.UserId != dto.UserId) { }
+
             toDo.Title = dto.Title;
             toDo.Description = dto.Description;
 
